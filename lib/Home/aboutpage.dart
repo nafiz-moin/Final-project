@@ -29,7 +29,7 @@ class AboutPage extends StatelessWidget {
               SizedBox(height: size.height * 0.04),
               // User Details with Animations
               Text(
-                "YasirYcs",
+                "Nafiz Moin",
                 style: TextStyle(
                   fontSize: size.width * 0.07,
                   color: Colors.white,
@@ -38,7 +38,7 @@ class AboutPage extends StatelessWidget {
               ),
               SizedBox(height: size.height * 0.02),
               Text(
-                "App Developer | Blogger | Gamer | Student",
+                "App Developer | Blogger | Student",
                 style: TextStyle(
                   fontSize: size.width * 0.045,
                   color: Colors.grey,
@@ -64,7 +64,7 @@ class AboutPage extends StatelessWidget {
                     child: GestureDetector(
                       onLongPress: () {
                         HapticFeedback.vibrate(); // Add haptic feedback
-                        Clipboard.setData(ClipboardData(text: 'https://github.com/YasirYcs'));
+                        Clipboard.setData(ClipboardData(text: 'https://github.com/nafiz-moin'));
                         ScaffoldMessenger.of(context).showSnackBar(
                           SnackBar(content: Text('Copied GitHub link to clipboard')),
                         );
@@ -83,7 +83,7 @@ class AboutPage extends StatelessWidget {
                     child: GestureDetector(
                       onLongPress: () {
                         HapticFeedback.vibrate(); // Add haptic feedback
-                        Clipboard.setData(ClipboardData(text: 'yasir.sami.501@gmail.com'));
+                        Clipboard.setData(ClipboardData(text: 'nafizmoin8@gmail.com'));
                         ScaffoldMessenger.of(context).showSnackBar(
                           SnackBar(content: Text('Copied email to clipboard')),
                         );
